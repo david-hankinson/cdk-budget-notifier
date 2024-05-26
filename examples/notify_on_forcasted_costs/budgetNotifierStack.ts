@@ -24,7 +24,7 @@ topic.addToResourcePolicy(statement);
 new BudgetNotifier(stack, 'notifier', {
   topicArn: topic.topicArn,
   // Filter on the availability zone `eu-central-1`
-  availabilityZones: ['eu-central-1'],
+  availabilityZones: ['ca-central-1'],
   costCenter: 'MyCostCenter',
   // Limit and unit defining the budget limit
   limit: 10,
