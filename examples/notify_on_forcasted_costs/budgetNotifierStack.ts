@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+#todo - update this lib
 import { App, Stack } from 'aws-cdk-lib';
 import { PolicyStatement, Effect, ServicePrincipal } from 'aws-cdk-lib/aws-iam';
 import { Topic } from 'aws-cdk-lib/aws-sns';
